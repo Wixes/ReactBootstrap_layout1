@@ -1,0 +1,31 @@
+.slider_top {
+    width: 100%;
+}
+
+.main_banner {
+    height: 15vmin;
+}
+
+.top_banner {
+    display: flex !important;
+    align-items: center;
+    padding: 0;
+    height: inherit;
+    background-image: url("/assets/top_banner.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+.top_banner-text {
+    display: flex;
+    align-items: center;
+    width: 18%;
+    height: 40%;
+    --AdaptiveFont: calc(2 * (100vw - 30rem) / 100 + 1rem); /* Universal formula for adaptive font */
+    padding-left: 1%;
+    margin-left: 5%;
+    font-family: "Centure gothic";
+    font-size: var(--AdaptiveFont); 
+    background-color: #424146;
+    color: #ffea00;
+}
