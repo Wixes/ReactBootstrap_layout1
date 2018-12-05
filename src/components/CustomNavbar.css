@@ -1,0 +1,38 @@
+.navbar-header {
+    margin: 1.5em;
+}
+
+.navbar-default {
+    margin: 0;
+    background-color: #f6f6f6;
+}
+
+.navbar-right > li > a {
+    color: black;
+    font-size: 1.313em;
+    font-family: "Code Light";
+    font-weight: 600;
+    letter-spacing: 0.05em;
+}
+
+.navbar-right :hover {
+    background-color: #ffea00 !important;
+}
+
+.navbar-toggle {
+    border: 2px white solid;
+}
+
+.navbar-toggle > span {
+    background-color: white;
+}
+
+.navbar-collapse > ul {
+    margin-top: 54px;
+}
+
+@media only screen and (max-width: 768px){
+    .navbar-header > a {
+        display: none;
+    }
+}

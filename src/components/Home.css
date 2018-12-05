@@ -1,0 +1,23 @@
+.slider_top {
+    width: 100%;
+}
+
+.top_pic {
+    padding: 0;
+    height: 15vmin;
+    background-image: url("/assets/top_pic.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+.top_pic-text {
+    display: block;
+    margin-left: 3vw;
+    margin-top: 4vh;
+    padding-left: .5em;
+    width: 30%;
+    font-family: "Centure gothic";
+    font-size: calc(1vw + 2vh);
+    background-color: #424146;
+    color: #ffea00;
+}
