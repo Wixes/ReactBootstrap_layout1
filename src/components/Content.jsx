@@ -106,8 +106,84 @@ class ContentSlider extends Component {
                         </Row>
                     </Col>
                     <Col className="sidebar" xsHidden md={3} lg={3}>
-                        <Row className="projects-details">
-                        
+                        <Row className="project-details">
+                            <Col className="project-details-content">
+                                <Row className="project-details-name">
+                                    project details
+                                </Row>
+                                <Row className="project-details-menu">
+                                    <Col className="project-details-pic-col">
+                                        <Image src="assets/arrow.png" className="project-details-pic" responsive />
+                                    </Col>
+                                    <Col className="project-details-description">
+                                        10/22/2013
+                                    </Col>
+                                </Row>
+                                <Row className="project-details-menu">
+                                    <Col className="project-details-pic-col">
+                                        <Image src="assets/arrow.png" className="project-details-pic" responsive />
+                                    </Col>
+                                    <Col className="project-details-description">
+                                        skokov responsive wordpress theme
+                                    </Col>
+                                </Row>
+                                <Row className="project-details-menu">
+                                    <Col className="project-details-pic-col">
+                                        <Image src="assets/arrow.png" className="project-details-pic" responsive />
+                                    </Col>
+                                    <Col className="project-details-description">
+                                        website design
+                                    </Col>
+                                </Row>
+                                <Row className="project-details-menu">
+                                    <Col className="project-details-pic-col">
+                                        <Image src="assets/arrow.png" className="project-details-pic" responsive />
+                                    </Col>
+                                    <Col className="project-details-description">
+                                        ie 8, ie 9, ie 10, firefox, safari, opera, chrome
+                                    </Col>
+                                </Row>
+                                <Row className="project-details-menu">
+                                    <Col className="project-details-pic-col">
+                                        <Image src="assets/arrow.png" className="project-details-pic" responsive />
+                                    </Col>
+                                    <Col className="project-details-description">
+                                        wordpress 3.5, wordpress 3.6
+                                    </Col>
+                                </Row>
+                                <Row className="project-details-menu">
+                                    <Col className="project-details-pic-col">
+                                        <Image src="assets/arrow.png" className="project-details-pic" responsive />
+                                    </Col>
+                                    <Col className="project-details-description">
+                                        responsive
+                                    </Col>
+                                </Row>
+                                <Row className="project-details-menu">
+                                    <Col className="project-details-pic-col">
+                                        <Image src="assets/arrow.png" className="project-details-pic" responsive />
+                                    </Col>
+                                    <Col className="project-details-description">
+                                        logotype
+                                    </Col>
+                                </Row>
+                                <Row className="project-details-menu">
+                                    <Col className="project-details-pic-col">
+                                        <Image src="assets/arrow.png" className="project-details-pic" responsive />
+                                    </Col>
+                                    <Col className="project-details-description">
+                                        unique icons
+                                    </Col>
+                                </Row>
+                                <Row className="project-details-menu">
+                                    <Col className="project-details-pic-col">
+                                        <Image src="assets/arrow.png" className="project-details-pic" responsive />
+                                    </Col>
+                                    <Col className="project-details-description">
+                                        live preview
+                                    </Col>
+                                </Row>
+                            </Col>
                         </Row>
                         <Row className="popular-posts">
                         
