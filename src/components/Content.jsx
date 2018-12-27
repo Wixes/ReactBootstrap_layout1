@@ -186,7 +186,76 @@ class ContentSlider extends Component {
                             </Col>
                         </Row>
                         <Row className="popular-posts">
-                        
+                            <Col className="popular-posts-main">
+                                <Row className="popular-posts-name">
+                                    popular posts
+                                </Row>
+                                <Row className="popular-posts-item">
+                                    <Col className="popular-posts-image" xs={4} md={4} lg={4}>
+                                        <Image src="assets/popular_posts/pp1.png" className="popular-posts-png" responsive />
+                                    </Col>
+                                    <Col className="popular-posts-info" xs={8} md={8} lg={8}>
+                                        <Row className="popular-posts-text">
+                                            15 fresh examples of clean and minimal web designs
+                                        </Row>
+                                        <Row className="popular-posts-date">
+                                            Oct, 09, 2013 &#10084; 21
+                                        </Row>
+                                    </Col>
+                                </Row>
+                                <Row className="popular-posts-item">
+                                    <Col className="popular-posts-image" xs={4} md={4} lg={4}>
+                                        <Image src="assets/popular_posts/pp2.png" className="popular-posts-png" responsive />
+                                    </Col>
+                                    <Col className="popular-posts-info" xs={8} md={8} lg={8}>
+                                        <Row className="popular-posts-text">
+                                            inspiring examples of color in web design
+                                        </Row>
+                                        <Row className="popular-posts-date">
+                                            Oct, 10, 2013 &#10084; 19
+                                        </Row>
+                                    </Col>
+                                </Row>
+                                <Row className="popular-posts-item">
+                                    <Col className="popular-posts-image" xs={4} md={4} lg={4}>
+                                        <Image src="assets/popular_posts/pp3.png" className="popular-posts-png" responsive />
+                                    </Col>
+                                    <Col className="popular-posts-info" xs={8} md={8} lg={8}>
+                                        <Row className="popular-posts-text">
+                                            17 inspiring examples of parallax scrolling sites
+                                        </Row>
+                                        <Row className="popular-posts-date">
+                                            Oct, 12, 2013 &#10084; 15
+                                        </Row>
+                                    </Col>
+                                </Row>
+                                <Row className="popular-posts-item">
+                                    <Col className="popular-posts-image" xs={4} md={4} lg={4}>
+                                        <Image src="assets/popular_posts/pp4.png" className="popular-posts-png" responsive />
+                                    </Col>
+                                    <Col className="popular-posts-info" xs={8} md={8} lg={8}>
+                                        <Row className="popular-posts-text">
+                                            15 websites with beautiful typography
+                                        </Row>
+                                        <Row className="popular-posts-date">
+                                            Oct, 03, 2013 &#10084; 13
+                                        </Row>
+                                    </Col>
+                                </Row>
+                                <Row className="popular-posts-item">
+                                    <Col className="popular-posts-image" xs={4} md={4} lg={4}>
+                                        <Image src="assets/popular_posts/pp5.png" className="popular-posts-png" responsive />
+                                    </Col>
+                                    <Col className="popular-posts-info" xs={8} md={8} lg={8}>
+                                        <Row className="popular-posts-text">
+                                            20 resources for beginner designers & developers
+                                        </Row>
+                                        <Row className="popular-posts-date">
+                                            Oct, 10, 2013 &#10084; 7
+                                        </Row>
+                                    </Col>
+                                </Row>
+                            </Col>
                         </Row>
                         <Row className="tags">
                         

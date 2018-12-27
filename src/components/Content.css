@@ -115,7 +115,6 @@
     background-color: #424147;
     width: 100%;
     margin: 0;
-    padding-bottom: 2vmin;
 }
 
 .project-details-content {
@@ -152,6 +151,44 @@
     width: 100%;
     margin: 0;
     padding-bottom: 2vmin;
+}
+
+.popular-posts-main {
+    padding: 2vmin;
+}
+
+.popular-posts-image {
+    padding: 0;
+    width: 20%;
+}
+
+.popular-posts-info {
+    width: 80%;
+}
+
+.popular-posts-name {
+    margin: 0;
+    color: #ffea00;
+    text-transform: uppercase;
+    padding-bottom: 2.5vmin;
+}
+
+.popular-posts-item {
+    margin: 0;
+}
+
+.popular-posts-text {
+    margin: 0;
+    color: white;
+    text-transform: uppercase;
+    width: 100%;
+}
+
+.popular-posts-date {
+    margin: 0;
+    color: #ffea00;
+    width: 100%;
+    text-align: right;
 }
 
 .tags {
