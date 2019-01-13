@@ -1,0 +1,232 @@
+.footer-grid {
+    margin: 0;
+    padding: 7vmin 0 0 0;
+    color: #ffffff;
+}
+
+.footer {
+    background-color: #414146;
+    width: 100%;
+    margin: 0;
+}
+
+.footer-main {
+    margin: 0;
+    padding: 2.5vmin 10vmin 2.5vmin 10vmin;
+}
+
+.footer-about {
+    margin: 0;
+    padding: 0 2vmin 0 0;
+}
+
+.footer-about-name {
+    font-size: 130%;
+    margin: 0;
+    padding: 0 0 2vmin 0;
+}
+
+.footer-about-desc {
+    margin: 0;
+    padding: 0 0 3vmin 0;
+}
+
+.footer-about-btn {
+    display: inline-block;
+    padding: 1vmin 2vmin 1vmin 2vmin;
+    border-bottom: 1px solid #ffea00;
+    cursor: pointer;
+    margin: 0;
+    background-color: black;
+    
+}
+
+.footer-about-pics-name {
+    margin: 0;
+    padding: 3vmin 0 2vmin 0;
+    font-size: 130%;
+}
+
+.footer-about-pics {
+    margin: 0;
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 400px;
+}
+
+.footer-about-pics-item {
+    padding: .2vmin;
+}
+
+.footer-tweets {
+    padding: 0 2vmin 0 0;
+    margin: 0;
+}
+
+.footer-tweets-name {
+    margin: 0;
+    font-size: 130%;
+    padding: 0 0 2.5vmin 0;
+}
+
+.footer-tweets-items-row {
+    margin: 0;
+}
+
+.footer-tweets-item {
+    margin: 0;
+}
+
+.footer-tweets-item-icon {
+    margin: 0;
+    padding: 0;
+}
+
+.footer-tweets-item-desc {
+    margin: 0;
+    padding: 0;
+}
+
+.footer-tweets-item-desc-name {
+    margin: 0;
+}
+
+.footer-tweets-item-tag {
+    color: #ffea00;
+    display: inline-block;
+}
+
+.footer-tweets-item-desc-date {
+    margin: 0;
+    font-size: 70%;
+    color: #ffea00;
+}
+
+.footer-tweets-socials {
+    display: flex;
+    margin: 0;
+    flex-wrap: wrap;
+}
+
+.footer-tweets-socials-name {
+    font-size: 130%;
+}
+
+.footer-tweets-socials-item {
+    padding: .1vmin;
+    cursor: pointer;
+}
+
+.footer-contacts {
+    margin: 0;
+}
+
+.footer-contacts-name {
+    margin: 0;
+    font-size: 130%;
+    padding: 0 0 5vmin 0;
+}
+
+.footer-contacts-address {
+    margin: 0;
+    padding: 0 0 2vmin 0;
+}
+
+.footer-contacts-address-icon,
+ .footer-contacts-phone-icon,
+  .footer-contacts-mail-icon {
+    max-width: 30px;
+    padding: 0;
+}
+
+.footer-contacts-address-text {
+    padding: 0 0 0 1vmin;
+}
+
+.footer-contacts-phone-text {
+    padding: 0 0 0 1vmin;
+    max-width: 50px;
+}
+
+.footer-contacts-phone {
+    margin: 0;
+    padding: 0 0 2vmin 0;
+}
+
+.footer-contacts-phone-number {
+    padding: 0 0 0 .5vmin;
+    margin: 0;
+}
+
+.footer-contacts-mail-text-tag {
+    display: inline-block;
+    color: #ffea00;
+}
+
+.footer-contacts-mail {
+    margin: 0;
+}
+
+.footer-contacts-mail-text {
+    padding: 0 0 0 1vmin;
+}
+
+.footer-contacts-form {
+    margin: 0;
+}
+
+.footer-contacts-form-name {
+    margin: 0;
+    font-size: 130%;
+    padding: 2.5vmin 0 2vmin 0;
+}
+
+.footer-contacts-form-text {
+    margin: 0;
+    padding: 0 0 2vmin 0;
+}
+
+.footer-contacts-form-input {
+    margin: 0;
+}
+
+.footer-contacts-form-full {
+    display: inline-block;
+}
+
+.footer-contacts-form-img {
+    display: inline-block;
+}
+
+input[type=text] {
+    background-color: #414146;
+    box-sizing: border-box;
+    border: none;
+    border-bottom: 2px solid #ffea00;
+    outline: none;
+}
+
+.footer-copyright {
+    display: flex;
+    align-items: center;
+    background-color: black;
+    text-align: center;
+    width: 100%;
+    height: 5vmin;
+    margin: 0;
+    padding: 0;
+}
+
+.footer-copyright-text {
+    font-size: 90%;
+}
+
+.footer-copyright-nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-copyright-nav-item {
+    cursor: pointer;
+    text-transform: uppercase;
+}

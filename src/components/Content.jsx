@@ -2,14 +2,21 @@ import React, { Component } from 'react';
 import { Grid, Row, Col, Image } from 'react-bootstrap';
 import './Content.css';
 
-class ContentSlider extends Component {
+class Content extends Component {
     render() {
         return (
             <Grid fluid className="main-content">
                 <Row className="show-grid">
                     <Col className="content" xs={12} md={9} lg={9}>
                         <Row className="slider">
-                        <Image src="assets/slider/slider_photo_main.png" className="center-block slider-main-img" responsive />
+                            <Image src="assets/slider/resize_icon.png" className="slider-resize_icon" responsive />
+                            <div className="slider-arrow-left">
+                                <i className="slider-arrow-left-arr"></i>
+                            </div>
+                            <div className="slider-arrow-right">
+                                <i className="slider-arrow-right-arr"></i>
+                            </div>
+                            <Image src="assets/slider/slider_photo_main.png" className="center-block slider-main-img" responsive />
                             <Col>
                                 <Row className="slider-line">
                                     <Col>
@@ -105,7 +112,7 @@ class ContentSlider extends Component {
                             </Col>
                         </Row>
                     </Col>
-                    <Col className="sidebar" xsHidden md={3} lg={3}>
+                    <Col className="sidebar" xsHidden smHidden md={3} lg={3}>
                         <Row className="project-details">
                             <Col className="project-details-content">
                                 <Row className="project-details-name">
@@ -258,7 +265,46 @@ class ContentSlider extends Component {
                             </Col>
                         </Row>
                         <Row className="tags">
-                        
+                            <Col className="tags-col">
+                                <Row className="tags-name">
+                                    tags
+                                </Row>
+                                <Row className="tags-content">
+                                    <div className="tags-content-item">
+                                        web design
+                                    </div>
+                                    <div className="tags-content-item">
+                                        html5
+                                    </div>
+                                    <div className="tags-content-item">
+                                        inspiration
+                                    </div>
+                                    <div className="tags-content-item">
+                                        photo
+                                    </div>
+                                    <div className="tags-content-item">
+                                        css
+                                    </div>
+                                    <div className="tags-content-item">
+                                        illustration
+                                    </div>
+                                    <div className="tags-content-item">
+                                        design
+                                    </div>
+                                    <div className="tags-content-item">
+                                        wordpress
+                                    </div>
+                                    <div className="tags-content-item">
+                                        business
+                                    </div>
+                                    <div className="tags-content-item">
+                                        theme
+                                    </div>
+                                    <div className="tags-content-item">
+                                        joomla
+                                    </div>
+                                </Row>
+                            </Col>
                         </Row>
                     </Col>
                 </Row>
@@ -267,4 +313,4 @@ class ContentSlider extends Component {
     }
 }
 
-export default ContentSlider;
+export default Content;

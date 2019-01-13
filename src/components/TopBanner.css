@@ -24,7 +24,7 @@
     --AdaptiveFont: calc(2 * (100vw - 30rem) / 100 + 1rem); /* Universal formula for adaptive font */
     padding-left: 1%;
     margin-left: 5%;
-    font-family: "Centure gothic";
+    font-family: "Century gothic";
     font-size: var(--AdaptiveFont); 
     background-color: #424146;
     color: #ffea00;
